@@ -17,6 +17,7 @@ Vagrant.configure(2) do |config|
       v.memory = 2048
       v.cpus = 2
     end
+    graph.vm.provision "shell", path: "scripts/graph_install.sh"
   end
   
 end
