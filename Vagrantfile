@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
     graph.vm.box = "centos/7"
     graph.vm.hostname = "graph"
     graph.vm.network "private_network", ip: "172.22.0.200", mask: "255.255.255.0"
-    graph.vm.network "public_network", bridge: "Intel(R) Dual Band Wireless-AC 8265", auto_config: true
+    graph.vm.network "public_network", auto_config: true
     graph.vm.provider "virtualbox" do |v|
       v.name = "graph"
       v.memory = 2048
