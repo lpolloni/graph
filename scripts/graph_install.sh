@@ -8,5 +8,5 @@ yum -y groups install "GNOME Desktop" >/dev/null 2>&1
 echo "[TASK 2] Install XRDP"
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm >/dev/null 2>&1
 yum -y install xrdp tigervnc-server >/dev/null 2>&1
-systemctl start xrdp
-systemctl enable xrdp
+systemctl start xrdp >/dev/null 2>&1
+systemctl enable xrdp >/dev/null 2>&1
