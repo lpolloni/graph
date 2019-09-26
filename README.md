@@ -1,5 +1,5 @@
-# Graph 
-## A lean desktop environment over RDP protocol 
+## Graph 
+### A lean desktop environment over RDP protocol 
 
 This is an example of how an desktop environment can be simply configured for various applications to suit each individual's needs, in this case using CentOS + GNOME + XRDP.
 
