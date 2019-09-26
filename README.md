@@ -1,3 +1,3 @@
-# Graph 
-## A lean desktop environment over RDP protocol using CentOS + GNOME + XRDP
+## Graph 
+### A lean desktop environment over RDP protocol using CentOS + GNOME + XRDP
 
