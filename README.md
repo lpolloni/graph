@@ -27,4 +27,4 @@ systemctl start xrdp
 systemctl enable xrdp
 ```
 
-Now it is possible to connect through Remote Desktop Connection or another compatible program 
+Now it is possible to connect through Remote Desktop Connection or another compatible program.
