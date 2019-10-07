@@ -4,7 +4,7 @@ echo "***** Initial Install *****"
 
 echo "[TASK 1] Update /etc/hosts file"
 cat >>/etc/hosts<<EOF
-172.30.0.100 nagios-server
+172.22.0.200 graph
 EOF
 
 echo "[TASK 2] Disabling SELinux"
